@@ -1,0 +1,54 @@
+<html>
+<head>
+<body>
+<table bgcolor="black" align="center"  width="1350" height="70">
+<tr>
+<th bgcolor="black"><a href="GRUAS.html"><font color="white">Regresar</th>
+</tr>
+</table>
+<title>Formulario CSS M3S3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="styls.css">
+    
+<div id="menu-container">
+    <a href="graficas.html">Ingresar Datos</a>
+    <a href="editar.html">Editar</a>
+    <a href="borrar.html">Borrar</a>
+    <a href="mostrar.html">Mostrar Datos</a>
+    <a href="buscar.html">Buscar</a>
+</div>
+<br><br>
+<div id="form-container">
+   <center> <h1>Edita tus registros</h1>
+</table>
+<br>
+<br>
+<form action="editar.php" method="POST">
+<label for="numero_servicio">Numero de Servicio:</label>
+        <input type="text" name="numero_servicio" required><br><br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" required><br><br>
+
+        <label for="nombre_cliente">Nombre del Cliente:</label>
+        <input type="text" name="nombre_cliente" required><br><br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="text" name="telefono" required><br><br>
+
+        <label for="falla_detectada">Falla Detectada:</label>
+        <textarea name="falla_detectada" required></textarea><br><br>
+
+        <label for="unidad">Unidad:</label>
+        <input type="text" name="unidad" required><br><br>
+
+        <label for="costo">Costo:</label>
+        <input type="number" name="costo" step="0.01" required><br><br>
+		
+		 <label for="gasto">Gasto:</label>
+        <input type="number" name="gasto" step="0.01" required><br><br>
+
+        <input type="submit" value="Guardar">
+ </center>   </form>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    transition: background-color 0.3s ease;
+}
+
+#menu-container {
+    background-color: #3498db;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#menu-container a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+#form-container {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transform-origin: center bottom;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+input,
+textarea,
+select {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+}
+
+h1 {
+    color: #00a4a2;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+/* Hover effects */
+#menu-container a:hover,
+#form-container:hover,
+input:hover,
+textarea:hover,
+select:hover,
+label:hover,
+h1:hover {
+    opacity: 0.8;
+}
+
+/* Add more styles as needed */

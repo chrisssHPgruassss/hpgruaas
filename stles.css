@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.header {
+    background-color: #339; /* Negro */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #555; /* Gris oscuro */
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff; /* Blanco */
+    font-weight: bold;
+    transition: color 0.3s; /* Transición de color de 0.3 segundos al pasar el ratón */
+}
+
+.nav-link:hover {
+    color: #4CAF50; /* Verde al pasar el ratón */
+}
+
+.content {
+       width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(1, 0, 1, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transform-origin: center bottom;
+}
+h1 {
+    color: #00a4a2;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    text-shadow: 0 0 10px #00a4a2, 0 0 20px #00a4a2, 0 0 30px #00a4a2, 0 0 40px #00a4a2, 0 0 50px #00a4a2, 0 0 60px #00a4a2, 0 0 70px #00a4a2;
+    text-align: center;
+}
+.heading {
+    color: purple; /* Negro */
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición de color de fondo de 0.3 segundos al pasar el ratón */
+}
+
+.btn-black {
+    background-color: #333; /* Negro */
+    color: #fff; /* Blanco */
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-black:hover {
+    background-color: #4CAF50; /* Verde al pasar el ratón */
+}
+
+/* Hover effects */
+#menu-container a:hover,
+#form-container:hover,
+input:hover,
+textarea:hover,
+select:hover,
+label:hover,
+h1:hover {
+    opacity: 0.8;
+}

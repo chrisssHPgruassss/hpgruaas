@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.header {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu {
+    background-color: #4285f4;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #3a79c8;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #3a79c8;
+}
+
+/* Animación para el formulario */
+.form-group, .btn {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.content:hover .form-group, .content:hover .btn {
+    opacity: 1;
+    transform: translateY(0);
+}

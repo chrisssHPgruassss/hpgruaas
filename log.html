@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Login HP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="logo">
+    <h1>INGRESA TRABAJADOR HP</h1>
+  </div>
+
+  <div id="fade-box">
+    <div class="stark-login">
+      <form id="loginForm">
+        <input type="text" id="usuario" placeholder="Username" required>
+        <input type="password" id="contrasena" placeholder="Password" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="circle1">
+    <div id="inner-cirlce1"></div>
+  </div>
+
+  <div class="hexagons">
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <br>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <br>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <br>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+    <span>&#x2B22;</span>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      var usuario = document.getElementById("usuario").value;
+      var contrasena = document.getElementById("contrasena").value;
+
+      if (usuario === "HPGRUAS" && contrasena === "12345") {
+        
+        window.location.href = "pagina.php";
+      } else {
+      
+        alert("Credenciales incorrectas. Por favor, inténtalo de nuevo.");
+      }
+    });
+  </script>
+</body>
+</html>

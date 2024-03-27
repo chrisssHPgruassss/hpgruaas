@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario CSS M3S3</title>
+    <link rel="stylesheet" href="borr.css">
+</head>
+<body>
+    <div id="menu">
+        <a href="index.html">Regresar</a>
+        <a href="borrar.html">Borrar</a>
+        <a href="graficas.html">Ingresar Datos</a>
+        <a href="editar.html">Editar</a>
+        <a href="mostrar.html">Mostrar Datos</a>
+        <a href="buscar.html">Buscar</a>
+    </div>
+
+    <div id="contenido">
+        <h1>Borra servicios</h1>
+        
+        <form action="borrar.php" method="POST">
+            <label for="numero_servicio">Número de Servicio:</label>
+            <input type="text" name="numero_servicio" required><br><br>
+            <input type="submit" class="btn btn-black" value="Eliminar">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/* eli.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #ffecd2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    color: #ff6f61;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ff6f61;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #ff6f61;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff8c7b;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff8c7b;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
